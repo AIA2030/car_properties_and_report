@@ -4,6 +4,8 @@ void main(List<String> arguments) {
   
   var car1 = Cars(brand: 'Toyota', model: 'Camry', energy: 'Petrol', year: 2022);
   car1.printInfo();
+
+  print('--------------------------->');
   
   var electricCar = ElectricCar(
     brand: 'Tesla',
